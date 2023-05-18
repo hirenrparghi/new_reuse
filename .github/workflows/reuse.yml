@@ -1,7 +1,6 @@
 name: myworkflow
-on: 
-   push:
-     branches: [ main ]
+on:
+  workflow_dispatch:
 jobs:  
  job1:
   uses: hirenrparghi/reuse/.github/workflows/myworkflow.yml@main
