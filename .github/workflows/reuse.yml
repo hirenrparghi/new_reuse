@@ -10,5 +10,5 @@ jobs:
   steps:
     - name: get env
       run: |
-        echo ${{ needs.job1.outputs.value }}
+        echo ${{ needs.job1.outputs.new_value }}
       
